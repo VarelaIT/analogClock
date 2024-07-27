@@ -1,0 +1,237 @@
+<style>
+  * {
+    text-decoration: none;
+    text-decoration-line: none;
+    font-family: sans-serif;
+    color: inherit;
+    position: relative;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  h1 {
+    margin: auto;
+    margin-top: 64px;
+    font-size: 64px;
+  }
+
+  footer {
+    margin: auto;
+  }
+
+  #app-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    gap: 32px;
+    margin: auto;
+  }
+
+  #clockContainer {
+    width: 200px;
+    margin: auto;
+  }
+
+  #clockBody {
+    fill: #000;
+  }
+
+  #clockHour {
+    fill: #ddd;
+  }
+
+  #clockMin {
+    fill: #eee;
+  }
+
+  #clockSec {
+    fill: #fff;
+  }
+
+  .clockJewel {
+    fill: #000;
+  }
+  .clockNiddles {
+    /*
+    transition: transform 0.5s;
+    */
+  }
+</style>
+
+<section>
+  <h1>Analog Clock</h1>
+
+  <article id="app-container">
+      <svg
+        id="clockContainer"
+        viewBox="0 0 26.458332 26.458333"
+        version="1.1"
+        id="svg1"
+        inkscape:version="1.3 (1:1.3+202307231459+0e150ed6c4)"
+        sodipodi:docname="analogClock.svg"
+        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:svg="http://www.w3.org/2000/svg"
+      >
+        <sodipodi:namedview
+          id="namedview1"
+          pagecolor="#ffffff"
+          bordercolor="#000000"
+          borderopacity="0.25"
+          inkscape:showpageshadow="2"
+          inkscape:pageopacity="0.0"
+          inkscape:pagecheckerboard="0"
+          inkscape:deskcolor="#d1d1d1"
+          inkscape:document-units="px"
+          inkscape:zoom="8.44"
+          inkscape:cx="50"
+          inkscape:cy="47.630332"
+          inkscape:window-width="1920"
+          inkscape:window-height="1049"
+          inkscape:window-x="0"
+          inkscape:window-y="0"
+          inkscape:window-maximized="1"
+          inkscape:current-layer="layer1"
+        />
+        <defs id="defs1" />
+        <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+          <circle
+            style="
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 0.26458332;
+              stroke-opacity: 1;
+              stroke-dasharray: none;
+            "
+            id="clockBody"
+            cx="13.229166"
+            cy="13.229166"
+            r="12.446094"
+          />
+          <path
+            id="clockHour"
+            class="clockNiddles"
+            style="
+              fill-opacity: 0.998551;
+              stroke: none;
+              stroke-width: 0.529167;
+              stroke-opacity: 1;
+            "
+            d="m 12.307368,13.354009 0.821702,-7.4499088 1.156877,7.4297508 -1.013015,1.619184 z"
+            sodipodi:nodetypes="ccccc"
+            inkscape:transform-center-x="-0.012779548"
+            inkscape:transform-center-y="-2.8242306"
+          />
+          <path
+            id="clockMin"
+            class="clockNiddles"
+            style="
+              fill-opacity: 0.998551;
+              stroke: none;
+              stroke-width: 0.529167;
+              stroke-opacity: 1;
+            "
+            d="m 12.581422,13.344935 0.611135,-10.4920558 0.739362,10.4636728 -0.668041,1.63626 z"
+            sodipodi:nodetypes="ccccc"
+            inkscape:transform-center-x="-0.013513635"
+            inkscape:transform-center-y="-4.3903441"
+          />
+          <path
+            id="clockSec"
+            class="clockNiddles"
+            style="
+              fill-opacity: 0.998551;
+              stroke: none;
+              stroke-width: 0.529167;
+              stroke-opacity: 1;
+            "
+            d="M 12.830065,13.344583 13.172215,0.78335176 13.628877,13.340942 13.265704,14.952874 Z"
+            sodipodi:nodetypes="ccccc"
+            inkscape:transform-center-x="0.032551508"
+            inkscape:transform-center-y="-5.4077325"
+          />
+          <rect
+            class="clockJewel"
+            style="
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 0.264583;
+              stroke-dasharray: none;
+              stroke-opacity: 1;
+            "
+            id="rect3"
+            width="1.194164"
+            height="1.194164"
+            x="9.8734579"
+            y="-8.7541828"
+            transform="rotate(44.964788)"
+          />
+          <rect
+            class="clockJewel"
+            style="
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 0.264583;
+              stroke-dasharray: none;
+              stroke-opacity: 1;
+            "
+            id="rect4"
+            width="1.194164"
+            height="1.194164"
+            x="26.266125"
+            y="7.5787878"
+            transform="rotate(44.964788)"
+          />
+          <rect
+            class="clockJewel"
+            style="
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 0.264583;
+              stroke-dasharray: none;
+              stroke-opacity: 1;
+            "
+            id="rect5"
+            width="1.194164"
+            height="1.194164"
+            x="26.2931"
+            y="-8.7568541"
+            transform="rotate(44.964788)"
+          />
+          <rect
+            class="clockJewel"
+            style="
+              fill-opacity: 1;
+              stroke: none;
+              stroke-width: 0.264583;
+              stroke-dasharray: none;
+              stroke-opacity: 1;
+            "
+            id="rect6"
+            width="1.194164"
+            height="1.194164"
+            x="9.930892"
+            y="7.5852547"
+            transform="rotate(44.964788)"
+          />
+        </g>
+      </svg>
+    <em id="digitalClock"></em>
+  </article>
+
+  <dialog id="notification"></dialog>
+  <footer>
+    <h4>Varela IT Network.</h4>
+    <a href="varelait.com" target="blank">varelait.com</a>
+  </footer>
+</section>
+
+<script src="main.js"></script>
